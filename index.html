@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virus for Jacquiline</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>HAPPY BIRTHDAY 20<sup>th</sup> JACQUILINEEEE!!</strong>
+                        <p>
+                            It's been 4 years since we know each other, still we are communicating!
+                            Thank you for being there  for me through all my ups and downs. I wish you  a very happy birthday! 
+                            I wish you abundant happiness and love. May all your dreams turn into reality and may lady luck visit your home today.
+
+                        <img src="1.png" height="35px" width="35px" id="image1"  style="position: absolute; left: 75px; top: 120px;">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
